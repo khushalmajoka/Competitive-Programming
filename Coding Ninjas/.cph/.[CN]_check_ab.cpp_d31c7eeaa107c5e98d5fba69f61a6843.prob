@@ -1,0 +1,1 @@
+{"name":"Local: [CN]_check_ab","url":"c:\\Users\\HP\\Desktop\\C++\\Coding Ninjas\\[CN]_check_ab.cpp","tests":[{"id":1636732752958,"input":"2\nabb\nabababa","output":"true\nfalse"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\HP\\Desktop\\C++\\Coding Ninjas\\[CN]_check_ab.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: [CN]_tower_of_hanoi","url":"c:\\Users\\HP\\Desktop\\C++\\[CN]_tower_of_hanoi.cpp","tests":[{"id":1636553732781,"input":"3\n1\n2\n3","output":"a c\na b\na c\nb c\na c\na b\nc b\na c\nb a\nb c\na c"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\HP\\Desktop\\C++\\[CN]_tower_of_hanoi.cpp","group":"local","local":true}

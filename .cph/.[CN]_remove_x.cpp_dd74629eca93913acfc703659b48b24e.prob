@@ -1,0 +1,1 @@
+{"name":"Local: [CN]_remove_x","url":"c:\\Users\\HP\\Desktop\\C++\\[CN]_remove_x.cpp","tests":[{"id":1636549120976,"input":"3\nxaxb\nabc\nxx","output":"ab\nabc\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\HP\\Desktop\\C++\\[CN]_remove_x.cpp","group":"local","local":true}

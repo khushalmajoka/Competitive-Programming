@@ -1,0 +1,1 @@
+{"name":"Local: [CN]_count_zeros","url":"c:\\Users\\HP\\Desktop\\C++\\[CN]_count_zeros.cpp","tests":[{"id":1636542005094,"input":"3\n10204\n708000\n0","output":"2\n4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\HP\\Desktop\\C++\\[CN]_count_zeros.cpp","group":"local","local":true}

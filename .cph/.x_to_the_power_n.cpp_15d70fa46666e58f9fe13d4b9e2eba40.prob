@@ -1,0 +1,1 @@
+{"name":"Local: x_to_the_power_n","url":"c:\\Users\\HP\\Desktop\\C++\\x_to_the_power_n.cpp","tests":[{"id":1636482818526,"input":"2\n3 4\n2 5","output":"81\n32"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\HP\\Desktop\\C++\\x_to_the_power_n.cpp","group":"local","local":true}

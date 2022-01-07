@@ -1,0 +1,1 @@
+{"name":"Local: [CN]_string_to_integer","url":"c:\\Users\\HP\\Desktop\\C++\\[CN]_string_to_integer.cpp","tests":[{"id":1636549517199,"input":"2\n1231\n12567","output":"1231\n12567"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\HP\\Desktop\\C++\\[CN]_string_to_integer.cpp","group":"local","local":true}

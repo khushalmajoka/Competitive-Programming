@@ -1,0 +1,1 @@
+{"name":"Local: [CN]_check_palindrome","url":"c:\\Users\\HP\\Desktop\\C++\\[CN]_check_palindrome.cpp","tests":[{"id":1636543528772,"input":"2\nracecar\nninja","output":"true\nfalse"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\HP\\Desktop\\C++\\[CN]_check_palindrome.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: maxTillI","url":"d:\\C++\\maxTillI.cpp","tests":[{"id":1620751966558,"input":"1\n8\n4 351 651156 421 210 0 654 41","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\C++\\maxTillI.cpp","group":"local","local":true}

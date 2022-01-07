@@ -1,0 +1,1 @@
+{"name":"Local: [CN]_all_indexes_of_x","url":"c:\\Users\\HP\\Desktop\\C++\\[CN]_all_indexes_of_x.cpp","tests":[{"id":1636539894393,"input":"1\n5\n9 8 10 8 8\n8","output":"1 3 4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\HP\\Desktop\\C++\\[CN]_all_indexes_of_x.cpp","group":"local","local":true}

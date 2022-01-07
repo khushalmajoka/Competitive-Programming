@@ -1,0 +1,1 @@
+{"name":"Local: [CN]_merge_sort","url":"c:\\Users\\HP\\Desktop\\C++\\[CN]_merge_sort.cpp","tests":[{"id":1636615995121,"input":"2\n6\n2 6 8 5 4 3\n5\n2 1 5 2 3","output":"2 3 4 5 6 8\n1 2 2 3 5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\HP\\Desktop\\C++\\[CN]_merge_sort.cpp","group":"local","local":true}

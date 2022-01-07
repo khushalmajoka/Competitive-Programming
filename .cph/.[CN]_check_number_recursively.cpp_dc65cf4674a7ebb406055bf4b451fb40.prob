@@ -1,0 +1,1 @@
+{"name":"Local: [CN]_check_number_recursively","url":"c:\\Users\\HP\\Desktop\\C++\\[CN]_check_number_recursively.cpp","tests":[{"id":1636523462441,"input":"2\n3\n9 8 10\n8\n3\n9 8 10\n2","output":"true\nfalse"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\HP\\Desktop\\C++\\[CN]_check_number_recursively.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: [CN]_multiplication_(recursive)","url":"c:\\Users\\HP\\Desktop\\C++\\[CN]_multiplication_(recursive).cpp","tests":[{"id":1636541750426,"input":"2\n3\n5\n4\n0","output":"15\n0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\HP\\Desktop\\C++\\[CN]_multiplication_(recursive).cpp","group":"local","local":true}

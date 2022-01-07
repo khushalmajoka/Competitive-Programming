@@ -1,0 +1,1 @@
+{"name":"Local: [CN]_pair_star","url":"c:\\Users\\HP\\Desktop\\C++\\[CN]_pair_star.cpp","tests":[{"id":1636550096461,"input":"2\nhello\naaaa","output":"hel*lo\na*a*a*a"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\HP\\Desktop\\C++\\[CN]_pair_star.cpp","group":"local","local":true}
