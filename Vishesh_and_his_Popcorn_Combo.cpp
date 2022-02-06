@@ -10,16 +10,9 @@ int main(){
     cin >> t;
 
     while(t--){
-        int a;
-        cin >> a;
-        int b = 0;
-
-        while(a % 2 == 0){
-            a /= 2;
-            b += 1;
-        }
-
-        cout << b << endl;
+        int a, b, c, d, e, f;
+        cin >> a >> b >> c >> d >> e >> f;
+        cout << max(a+b, max(c+d, e+f)) << endl;
     }
 
     return 0;

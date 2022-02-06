@@ -10,16 +10,14 @@ int main(){
     cin >> t;
 
     while(t--){
-        int a;
-        cin >> a;
-        int b = 0;
-
-        while(a % 2 == 0){
-            a /= 2;
-            b += 1;
+        int n;
+        cin >> n;
+        for(int i = 0; i < n; i++){
+            for(int j = 0; j < n; j++){
+                cout << 1 << " ";
+            }
+            cout << endl;
         }
-
-        cout << b << endl;
     }
 
     return 0;
