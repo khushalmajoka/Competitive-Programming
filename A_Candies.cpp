@@ -10,6 +10,18 @@ int main(){
     cin >> t;
 
     while(t--){
+        int n;
+        cin >> n;
+
+        int i = 3;
+        int j = 2;
+
+        while(n % i != 0){
+            j *= 2;
+            i += j;
+        }
+
+        cout << n/i << endl;
 
     }
 
