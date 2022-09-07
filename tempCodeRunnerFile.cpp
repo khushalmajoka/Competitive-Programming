@@ -1,23 +1,27 @@
-#include <bits/stdc++.h>
-using namespace std;
+ // int r;
+    // cin>>r;
+    // cout<<endl;
+    
+    // cout<<"Enter the character you want: ";
+    // string s;
+    // cin>>s;
+    // cout<<endl;
 
-int main(){
-
-    cout << "Enter a number from 1 to 4: ";
-    int num;
-    cin >> num;
-
-    if(num == 1){
-        cout << "You win $10!" << endl;
-    }else if(num == 2){
-        cout << "You lose $10!" << endl;
-    }else if(num == 3){
-        cout << "You win/lose nothing!" << endl;
-    }else if(num == 4){
-        cout << "You win $5!" << endl;
-    }else{
-        cout << "You entered an incorrect number!" << endl;
-        cout << "You lose $100!" << endl;
-    }
-    return 0;
-}
+    // for(int i = 1; i <= (r+1)/2; i++){
+    //     for(int j = 1; j <= ((r+1)/2)-i; j++){
+    //         cout<<" ";
+    //     }
+    //     for(int n = 1; n <= 2*i-1; n++){
+    //         cout<<s;
+    //     }
+    //     cout<<endl;
+    // }
+    // for(int i = 1; i <= (r-1)/2; i++){
+    //     for(int j = 1; j <= i; j++){
+    //         cout<<" ";
+    //     }
+    //     for(int j = 1; j <= (r-1)-(2*i-1); j++){
+    //         cout<<s;
+    //     }
+    //     cout<<endl;
+    // }
