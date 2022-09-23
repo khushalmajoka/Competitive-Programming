@@ -53,9 +53,17 @@ double eps = 1e-12;
  
 
 void solve(){
-    long long n;
-    cin >> n;
-    for(long long i = 1; i <= n; i++) cout << i << endl;
+    int a, b, c;
+    cin >> a >> b >> c;
+    int x = abs(a-1);
+    int y = abs(b-c)+abs(c-1);
+    if(x < y){
+        cout << 1 << endl;
+    }else if(x > y){
+        cout << 2 << endl;
+    }else{
+        cout << 3 << endl;
+    }
 }
 
 int main(){

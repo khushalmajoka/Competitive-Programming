@@ -53,9 +53,9 @@ double eps = 1e-12;
  
 
 void solve(){
-    long long n;
-    cin >> n;
-    for(long long i = 1; i <= n; i++) cout << i << endl;
+    int n, x;
+    cin >> n >> x;
+    cout << min(x, n-x) << endl;
 }
 
 int main(){

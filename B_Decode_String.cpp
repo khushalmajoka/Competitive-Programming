@@ -53,9 +53,21 @@ double eps = 1e-12;
  
 
 void solve(){
-    long long n;
+    int n;
     cin >> n;
-    for(long long i = 1; i <= n; i++) cout << i << endl;
+    string s;
+    cin >> s;
+    string ans = "";
+    for(int i = n-1; i >= 0; i--){
+        if(s[i] == '0'){
+            ans += (char)(stoi(s.substr(i-2, 2))+96);
+            i-=2;
+        }else{
+            ans += (char)(s[i]-'0'+96);
+        }
+    }
+    reverse(ans.begin(), ans.end());
+    cout << ans << endl;
 }
 
 int main(){

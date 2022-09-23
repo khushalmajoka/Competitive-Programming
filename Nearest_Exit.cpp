@@ -53,9 +53,13 @@ double eps = 1e-12;
  
 
 void solve(){
-    long long n;
-    cin >> n;
-    for(long long i = 1; i <= n; i++) cout << i << endl;
+    int x;
+    cin >> x;
+    if(x <= 50){
+        cout << "LEFT" << endl;
+    }else{
+        cout << "RIGHT" << endl;
+    }
 }
 
 int main(){

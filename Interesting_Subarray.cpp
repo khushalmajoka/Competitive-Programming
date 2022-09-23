@@ -53,9 +53,27 @@ double eps = 1e-12;
  
 
 void solve(){
-    long long n;
+    ll n;
     cin >> n;
-    for(long long i = 1; i <= n; i++) cout << i << endl;
+    vector<ll> arr(n);
+    forn(i, n){
+        cin >> arr[i];
+    }
+
+    ll mini = INT_MAX;
+    ll maxi = INT_MIN;
+    ll absMin = INT_MAX;
+    ll absMax = INT_MIN;
+
+    forn(i, n){
+        mini = min(mini, arr[i]);
+        maxi = max(maxi, arr[i]);
+        absMin = min(absMin, abs(arr[i]));
+        absMax = max(absMax, abs(arr[i]));
+    }
+    ll ans1 = min(maxi*mini, absMin*absMin);
+    ll ans2 = absMax*absMax;
+    cout << ans1 << " " << ans2 << endl;
 }
 
 int main(){

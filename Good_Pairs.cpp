@@ -53,9 +53,22 @@ double eps = 1e-12;
  
 
 void solve(){
-    long long n;
+    ll n;
     cin >> n;
-    for(long long i = 1; i <= n; i++) cout << i << endl;
+    unordered_map<ll, ll> mp;
+    forn(i, n){
+        ll x;
+        cin >> x;
+        mp[x]++;
+    }
+
+    ll ans = 0;
+    for(auto x: mp){
+        if(x.second > 1){
+            ans += (x.second*(x.second-1))/2;
+        }
+    }
+    cout << ans << endl;
 }
 
 int main(){

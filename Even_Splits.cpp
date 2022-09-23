@@ -53,9 +53,15 @@ double eps = 1e-12;
  
 
 void solve(){
-    long long n;
+    int n;
     cin >> n;
-    for(long long i = 1; i <= n; i++) cout << i << endl;
+    string s;
+    cin >> s;
+    if(n <= 2) cout << s << endl;
+    else{
+        sort(s.begin(), s.end());
+        cout << s << endl;
+    }
 }
 
 int main(){

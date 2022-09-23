@@ -53,9 +53,20 @@ double eps = 1e-12;
  
 
 void solve(){
-    long long n;
+    int n;
     cin >> n;
-    for(long long i = 1; i <= n; i++) cout << i << endl;
+    int arr[n];
+    int count = 0;
+    bool check = false;
+    for(int i = 0; i < n; i++){
+        cin >> arr[i];
+        if(arr[i] == 0) check = true;
+        if(arr[i] < 0) count++;
+    }
+    if(check) cout << 0 << endl;
+    else{
+        count%2 == 0 ? cout << 0 << endl : cout << 1 << endl;
+    }
 }
 
 int main(){

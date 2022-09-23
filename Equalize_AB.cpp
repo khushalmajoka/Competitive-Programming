@@ -53,9 +53,13 @@ double eps = 1e-12;
  
 
 void solve(){
-    long long n;
-    cin >> n;
-    for(long long i = 1; i <= n; i++) cout << i << endl;
+    int a, b, x;
+    cin >> a >> b >> x;
+    if((a-b)%(2*x) == 0 || (b-a)%(2*x) == 0){
+        cout << "YES" << endl;
+    }else{
+        cout << "NO" << endl;
+    }
 }
 
 int main(){

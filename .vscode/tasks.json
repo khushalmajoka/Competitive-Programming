@@ -8,7 +8,7 @@
           "-g",
           "${file}",
           "-o",
-          "${fileDirname}\\${fileBasenameNoExtension}.exe"
+          "${workspaceFolder}/test.cpp"
         ],
         "options": {
           "cwd": "C:\\MinGW\\bin"

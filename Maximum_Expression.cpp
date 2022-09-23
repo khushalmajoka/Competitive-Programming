@@ -53,9 +53,37 @@ double eps = 1e-12;
  
 
 void solve(){
-    long long n;
+    int n;
     cin >> n;
-    for(long long i = 1; i <= n; i++) cout << i << endl;
+    string s;
+    cin >> s;
+    int plus = 0, minus = 0;
+    vector<int> arr;
+    for(int i = 0; i < n; i++){
+        if(s[i] == '+'){
+            plus++;
+        }else if(s[i] == '-'){
+            minus++;
+        }else{
+            arr.push_back(s[i]-'0');
+        }
+    }
+    sort(arr.begin(), arr.end());
+    string ans = "";
+    int i = 0;
+    int N = arr.size();
+    for(i = N-1; i >= plus+minus; i--){
+        ans += to_string(arr[i]);
+    }
+    while(plus--){
+        ans += "+";
+        ans += to_string(arr[i--]);
+    }
+    while(minus--){
+        ans += "-";
+        ans += to_string(arr[i--]);
+    }
+    cout << ans << endl;
 }
 
 int main(){

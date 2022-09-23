@@ -50,12 +50,27 @@ double eps = 1e-12;
 #define fast_cin() ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
- 
+
 
 void solve(){
-    long long n;
-    cin >> n;
-    for(long long i = 1; i <= n; i++) cout << i << endl;
+    int a, b;
+    cin >> a >> b;
+
+    if((a+b)%2 == 0 && a+b >= 4){
+        if(a%2 == 0 && b%2 == 0){
+            cout << "Yes" << endl;
+        }else{
+            cout << "No" << endl;
+        }
+    }else if((a+b)%2 != 0 && a+b >= 5){
+        if((a%2 != 0 && a >= 3) || (b%2 != 0 && b >= 3)){
+            cout << "Yes" << endl;
+        }else{
+            cout << "No" << endl;
+        }
+    }else{
+        cout << "No" << endl;
+    }
 }
 
 int main(){

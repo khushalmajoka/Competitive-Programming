@@ -53,9 +53,18 @@ double eps = 1e-12;
  
 
 void solve(){
-    long long n;
-    cin >> n;
-    for(long long i = 1; i <= n; i++) cout << i << endl;
+    int a, x, b, y;
+    cin >> a >> x >> b >> y;
+
+    double soa = (double)a/(double)x;
+    double sob = (double)b/(double)y;
+    if(soa > sob){
+        cout << "Alice" << endl;
+    }else if(soa < sob){
+        cout << "Bob" << endl;
+    }else{
+        cout << "Equal" << endl;
+    }
 }
 
 int main(){
